@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dellanonsense</title>
+    <link rel='icon' href='logo.png' type='image/x-icon'/>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./header.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+        $("#topnav").load("navbar.html");
+    });
+    </script>
+    <script>
+        $(function(){
+        $("#header").load("header.html");
+    });
+    </script>
+</head>
+<style>
+.four {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    margin: auto;
+}
+.five {
+    grid-column: 3 / 1;
+    grid-row: 5;
+}
+.footer {
+    grid-column: 3 / 1;
+    grid-row: 6;
+    margin: auto;
+}
+</style>
+<body>
+<div class="content">
+    <div class="nav">
+        <div class="topnav">
+            <div id="topnav"></div>
+        </div>
+        <div class="header">
+            <div id="header"></div>
+        </div>
+    </div>
+    <div class="four">
+        <div class="topnav">
+            <a href="/blog.html"> blog </a>
+            <a href="https://dellanonsense.neocities.org/rss.xml"> rss </a>
+        </div>
+        <h2 style="text-align: center;"> blog tags </h2>
+    </div>
+    <div class="five">
+        <h3> art: </h3>
+        <div class="currently">
+        <p> <a href="/not_found.html">placeholder</a></p>
+        <p> <a href="/not_found.html">placeholder</a></p>
+        <p> <a href="/not_found.html">placeholder</a></p>
+        </div>
+        <h3> diary: </h3>
+        <div class="currently">
+        <p> <a href="/not_found.html">placeholder</a></p>
+        <p> <a href="/not_found.html">placeholder</a></p>
+        <p> <a href="/not_found.html">placeholder</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="pinkdivider.png" style="width: 100%"">
+        <div id="footer"></div>
+    </div>
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dellanonsense</title>
+    <link rel='icon' href='logo.png' type='image/x-icon'/>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./header.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+        $("#topnav").load("navbar.html");
+    });
+    </script>
+    <script>
+        $(function(){
+        $("#header").load("header.html");
+    });
+    </script>
+</head>
+<style>
+.four {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+.five {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 5;
+    padding: 5px;
+    margin: auto;
+}
+
+.five img {
+    width: 100%;
+}
+
+.six {
+    grid-column: 1 / 3;
+    grid-row: 6;
+    margin: auto;
+    padding-top: 5px;
+}
+@media screen and (max-width : 600px) {
+    .five {
+        display: block;
+    }
+}
+</style>
+<body>
+    <div class="content" style="padding-bottom: 0px;">
+        <div class="nav">
+        <div class="topnav">
+            <div id="topnav"></div>
+        </div>
+        <div class="header">
+            <div id="header"></div>
+        </div>
+        </div>
+        <div class="four"> 
+            <h2 class="darktxt1"> illustrations </h2>
+            <p class="darktxt2"> ♡ please do not steal, reupload, or edit my art. thank you! ♡ </p>
+        </div>
+        <div class="five">
+            <img src="possible header idk.png">
+            <img src="hell is cold.png">
+            <img src="her prosperity is ensured.png">
+            <img src="peace della deco.png">
+        <div class="six"><script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#ff7aa6', 'A85246XK');kofiwidget2.draw();</script></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>dellanonsense</title>
+    <link rel='icon' href='logo.png' type='image/x-icon'/>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./header.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+        $("#topnav").load("navbar.html");
+    });
+    </script>
+    <script>
+        $(function(){
+        $("#header").load("header.html");
+    });
+    </script>
+</head>
+<style>
+.currently {
+    grid-column: 3 / 1;
+    grid-row: 4;
+} 
+.four {
+    grid-column: 1 / 3;
+    grid-row: 5;
+    margin: auto;
+}
+
+.five {
+    grid-column: 1 / 3;
+    grid-row: 6 / 26;
+    padding: 5px;
+}
+
+.six {
+    grid-column: 3 / 1;
+    grid-row: 27;
+}
+
+.seven {
+grid-column: 3 / 1;
+grid-row: 28;
+margin: auto;
+}
+</style>
+<body>
+<div class="content">
+    <div class="nav">
+        <div class="topnav">
+            <div id="topnav"></div>
+        </div>
+        <div class="header">
+            <div id="header"></div>
+        </div>
+        </div>
+        <div class="currently">
+            <p><b>currently reading:</b>
+                <a href="https://www.goodreads.com/book/show/42815544-bunny?ac=1&from_search=true&qid=un36wOVK6I&rank=2">bunny</a>
+                &
+                <a href="https://www.goodreads.com/book/show/7171637-clockwork-angel?ac=1&from_search=true&qid=xBEdapRHWm&rank=1">clockwork angel</a>
+            </p>
+            <p><b>currently watching:</b>
+            
+            </p>
+            <p><b>currently playing:</b>
+                <a href="https://arcadekitten.itch.io/blackout-hospital">blackout hospital</a>
+                &
+                <a href="https://store.steampowered.com/app/2638370/Five_Nights_at_Freddys_Into_the_Pit/">fnaf:into the pit</a>
+            </p>
+            <div class="headerdivider"><img src="pinkdivider.png" style="width: 100%;"></div>
+        </div>
+    <div class="four">
+
+        <div class="topnav">
+            <a href="/blogtags.html"> tags </a>
+            <a href="https://dellanonsense.neocities.org/rss.xml"> rss </a>
+        </div>
+        <h1>blog archive</h1> 
+    </div>
+    <div class="five">
+        <div id="postlistdiv"></div>
+    </div>
+    <div class="six"><img src="pinkdivider.png" style="width: 100%""></div>
+    <div class="seven">
+        <div id="footer"></div>
+    </div>
+</div>
+  <script src="./script.js"></script>
+</body>
+</html>

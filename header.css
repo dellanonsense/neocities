@@ -1,0 +1,41 @@
+#header {
+    display: grid;
+}
+
+.nav {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.one {
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+    display: block;
+    margin: auto;
+}
+
+.two {
+   grid-column: 2 / 3; 
+   grid-row: 2;
+}
+
+.three {
+    grid-column: 2 / 3; 
+    grid-row: 3;
+    text-align: center;
+}
+
+.headerdivider {
+    grid-column: 3 / 1;
+    grid-row: 4;
+}
+
+@media screen and (max-width : 600px) {
+    #header {
+        display: block;
+    }
+    .one {
+        padding-top: 10px;
+        text-align: center;
+    }
+}

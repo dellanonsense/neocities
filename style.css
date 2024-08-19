@@ -1,0 +1,123 @@
+body {
+    background-image: url('bg.png');
+    background-repeat: repeat;
+}
+
+.content {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 25px;
+    display: grid;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+@media screen and (max-width : 600px) {
+    .content {
+        width: auto;
+    }
+    #topnav a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.button {
+    background-color: #FEAEBE;
+    border-radius: 10px;
+}
+
+.darktxt2 {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.darktxt1 {
+    color: #000000;
+    font-family: 'Playfair Display', Serif, serif;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #ff7aa6;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  #postlistdiv ul {
+    list-style-type: none;
+  }
+  #recentpostlistdiv ul {
+    list-style-type: none;
+  }
+  #nextprev {
+    text-align: center;
+  }
+  
+#footer {
+    color: #000000;
+    font-family: 'Playfair Display', Serif, serif;
+    text-align: center;
+}
+
+#footer a {
+    color:#ff7aa6;
+    font-family: 'Playfair Display', Serif, serif;
+}
+
+#nextprev a {
+    color:#ff7aa6;
+    font-family: 'Playfair Display', Serif, serif;
+}
+
+.blogheader {
+    grid-column: 1 / 3;
+    display: block;
+    color:#000000;
+    font-family: 'Playfair Display', Serif, serif;
+}
+
+.blogtxt {
+    grid-row: 4 / 6;
+    display: block;
+    margin: auto;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blogfooter {
+    grid-column: 1 / 3;
+    grid-row: 7;
+    display: block;
+    margin: auto;
+}
+
+#postlistdiv a {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.currently {
+    margin: 0%;
+    text-align: left;
+}
+
+.currently a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff7aa6;
+}
